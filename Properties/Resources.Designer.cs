@@ -63,6 +63,16 @@ namespace pryDacunteVs3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8988440cb5e82da652d4a018882705ca {
+            get {
+                object obj = ResourceManager.GetObject("8988440cb5e82da652d4a018882705ca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap alien_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("alien-removebg-preview", resourceCulture);

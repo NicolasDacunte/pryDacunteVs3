@@ -16,5 +16,19 @@ namespace pryDacunteVs3
         {
             InitializeComponent();
         }
+
+        private void btnJugar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmJuego frmJuego = new frmJuego();
+            frmJuego.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmVentanaPrincipal MenuPrincipal = new frmVentanaPrincipal();
+            MenuPrincipal.ShowDialog();
+        }
     }
 }

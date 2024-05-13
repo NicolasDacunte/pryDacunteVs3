@@ -41,7 +41,7 @@
             this.menúToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(719, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(305, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -58,14 +58,14 @@
             // galagaToolStripMenuItem
             // 
             this.galagaToolStripMenuItem.Name = "galagaToolStripMenuItem";
-            this.galagaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.galagaToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.galagaToolStripMenuItem.Text = "Galaga";
             this.galagaToolStripMenuItem.Click += new System.EventHandler(this.galagaToolStripMenuItem_Click);
             // 
             // firmaToolStripMenuItem
             // 
             this.firmaToolStripMenuItem.Name = "firmaToolStripMenuItem";
-            this.firmaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.firmaToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.firmaToolStripMenuItem.Text = "Firma";
             this.firmaToolStripMenuItem.Click += new System.EventHandler(this.firmaToolStripMenuItem_Click);
             // 
@@ -73,7 +73,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 406);
+            this.BackgroundImage = global::pryDacunteVs3.Properties.Resources.e75b070ea310d267380367293a015ac19425b66f_00;
+            this.ClientSize = new System.Drawing.Size(305, 215);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmVentanaPrincipal";
