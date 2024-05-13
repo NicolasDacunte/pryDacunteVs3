@@ -135,12 +135,14 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.Enabled = false;
             this.btnSalir.Location = new System.Drawing.Point(814, 5);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 10;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Visible = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmJuego

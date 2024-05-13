@@ -16,7 +16,7 @@ namespace pryDacunteVs3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmJuego());
+            Application.Run(new frmVentanaPrincipal());
         }
     }
 }

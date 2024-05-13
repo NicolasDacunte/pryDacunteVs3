@@ -40,7 +40,7 @@ namespace pryDacunteVs3
             else
             {
                 pctAlien.Top += 13;
-                pctNave.Top += 10;
+                pctNave.Top += 8;
 
             }
         }
@@ -86,5 +86,8 @@ namespace pryDacunteVs3
             timerEnemigos.Start();
 
         }*/
+              
+        
+       
     }
 }

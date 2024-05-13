@@ -16,5 +16,24 @@ namespace pryDacunteVs3
         {
             InitializeComponent();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void galagaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmMenuJuego menuJuego = new frmMenuJuego();
+            menuJuego.Show();
+        }
+
+        private void firmaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmFirma firma = new frmFirma();
+            firma.Show();
+        }
     }
 }

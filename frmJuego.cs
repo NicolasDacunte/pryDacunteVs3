@@ -21,7 +21,7 @@ namespace pryDacunteVs3
         }
 
         //public System.Windows.Forms.Timer timerEnemigos = new System.Windows.Forms.Timer();
-       
+
 
         bool derecha;
         bool izquierda;
@@ -46,8 +46,9 @@ namespace pryDacunteVs3
                 }
             }
         }
+        
         Random rnd = new Random();
-        clsNave movEnemigo = new clsNave();
+        clsNave naves = new clsNave();
 
         void disparos()
         {
@@ -127,7 +128,8 @@ namespace pryDacunteVs3
 
                 btnReiniciar.Visible = true;
                 btnReiniciar.Enabled = true;
-                btnReiniciar.Visible = true;
+                btnSalir.Visible = true;
+                btnSalir.Enabled = true;
 
             }
             if (pctJugador.Bounds.IntersectsWith(pctAlien.Bounds))
@@ -138,6 +140,8 @@ namespace pryDacunteVs3
 
                 btnReiniciar.Visible = true;
                 btnReiniciar.Enabled = true;
+                btnSalir.Visible = true;
+                btnSalir.Enabled = true;
                 lblCartel.Visible = true;
                 btnReiniciar.BringToFront();
 
@@ -148,11 +152,13 @@ namespace pryDacunteVs3
                 timer1.Stop();
                 btnReiniciar.Visible = true;
                 btnReiniciar.Enabled = true;
+                btnSalir.Visible = true;
+                btnSalir.Enabled = true;
                 lblCartel.Visible = true;
                 lblGanar.Visible = true;
             }
         }
-
+        
         private void frmJuego_KeyDown_1(object sender, KeyEventArgs e)
         {
             //Cada tecla de estas si es presionada se activa la variable booleana
@@ -198,7 +204,7 @@ namespace pryDacunteVs3
             //llama funcion y clases
 
             movimiento_flechas();
-            movEnemigo.MoverEnemigo(pctAlien, pctNave);
+            naves.MoverEnemigo(pctAlien, pctNave);
             disparo_mov();
             SCORE();
         }
